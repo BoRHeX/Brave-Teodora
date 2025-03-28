@@ -61,8 +61,8 @@ body:
   - type: textarea
     id: version
     attributes:
-      label: Desktop Brave version (brave://version info)
-      description: "`Brave`, `Revision` and `OS` from `brave://version`"
+      label: Desktop Brave version (teodora://version info)
+      description: "`Teodora`, `Revision` and `OS` from `teodora://version`"
     validations:
       required: true
   - type: textarea
@@ -90,8 +90,8 @@ body:
       label: Reproducibility
       description: Does this issue occur...
       options:
-        - label: with Brave Shields disabled
-        - label: with Brave Rewards disabled
+        - label: with Teodora Shields disabled
+        - label: with Teodora Rewards disabled
         - label: in the latest version of Chrome
   - type: textarea
     id: misc

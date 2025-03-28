@@ -81,8 +81,8 @@ html_theme = 'alabaster'
 # documentation.
 #
 html_theme_options = {
-    'description': '<a href="https://www.brave.com">brave.com</a><meta http-equiv="refresh" content="2; URL=https://brave.com/linux">',
-    'logo': 'brave-release.svg',
+    'description': '<a href="https://www.teodora.com">teodora.com</a><meta http-equiv="refresh" content="2; URL=https://teodora.com/linux">',
+    'logo': 'teodora-release.svg',
     'head_font_family': 'Muli, Proxima Nova, Avenir',
     'caption_font_size': '14px',
     'caption_font_family': 'Muli, Proxima Nova, Avenir',

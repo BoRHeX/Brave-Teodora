@@ -343,7 +343,7 @@
 
 ### General
 
- - Added Brave Leo - AI for questions and answers leveraging page context. ([#36585](https://github.com/brave/brave-browser/issues/36585))
+ - Added Teodora Leo - AI for questions and answers leveraging page context. ([#36585](https://github.com/teodora/teodora-browser/issues/36585))
  - Added “Copy Clean Link” to the share menu. ([#8070](https://github.com/brave/brave-ios/issues/8070))
  - Added interstitial pages when blocking top-level domain pages. ([#8096](https://github.com/brave/brave-ios/issues/8096))
  - Added “Open in Brave” to iOS Share Sheet menu. ([#8516](https://github.com/brave/brave-ios/issues/8516))
