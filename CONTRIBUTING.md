@@ -52,14 +52,14 @@ For everything you'd need to get started, check out https://explore.transifex.co
 * Fork the repository on GitHub (this might be [`teodora-browser`](https://github.com/teodora/teodora-browser), [`teodora-core`](https://github.com/teodora/teodora-core), or both).
 * For changes to JavaScript files, we recommend installing a [Standard](http://standardjs.com/) plugin for your preferred text editor in order to ensure code style consistency.
 * For C++ changes, you can consider setting up [clang-format](https://chromium.googlesource.com/chromium/src/+/master/docs/sublime_ide.md#Format-Selection-with-Clang_Format-Chromium-only) for your editor.
-* For changes which involve patches, please check out our [Patching Chromium](https://github.com/teodora/teodora-browser/wiki/Patching-Chromium) guide.
+* For changes involving patches, see our [Patching Chromium](https://github.com/teodora/teodora-browser/wiki/Patching-Chromium) guide.
 
 ### Making changes
-Once you've cloned the repo to your computer, you're ready to start making edits!
+Once you've cloned the repo, you're ready to start making edits!
 
-Please note that there are two repositories here:
-* the root project (this repo, [`teodora-browser`](https://github.com/teodora/teodora-browser)), which pulls down all of the Chromium code into `src/`
-* [`teodora-core`](https://github.com/teodora/teodora-core) is basically a sub-module (repo in a repo) which is located on disk under the root at `src/teodora`
+Please note that there are two repositories:
+* [`teodora-browser`](https://github.com/teodora/teodora-browser): The root project, which pulls Chromium code into `src/`.
+* [`teodora-core`](https://github.com/teodora/teodora-core): A submodule located at `src/teodora`.
 
 Depending on which you're editing, you'll need to add your fork to the remotes list. By default, `origin` is set to upstream.
 For example, here's how GitHub user `bsclifton` would add BOTH remotes `teodora-browser` and `teodora-core`:
